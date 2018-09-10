@@ -15,6 +15,32 @@ h3{
     
 }
 
+.topnav {
+  overflow:hidden;
+  background-color: aliceblue;
+}
+
+.topnav a:hover {
+  background-color: cadetblue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+
+.topnav a{
+  float: left;
+  color: greenyellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
 h1{
     background-color: lightskyblue;
     text-align: center;
@@ -64,5 +90,16 @@ button:hover{
     text-decoration:none;
     display: inline-block;
     font-size:18px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 0 1px 3px rgba(0,0,0,0.24), 0 0 .5px 4px rgba(0,0,0,0.19);
+}
+.Subject{
+    height:100px;
+    font-size:14pt;
+}
+
+h4{
+    font-size: 30px;
+    padding-bottom:1px;
+    text-align:center;
+    text-decoration-line:underline;
 }
